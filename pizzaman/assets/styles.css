@@ -299,7 +299,7 @@ Banner
 .banner {
     min-height: 100vh;
     background: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.2)),to(rgba(0,0,0,0.6))), url(./images/bcg-1.JPG) center/cover no-repeat fixed;
-    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)), url(./images/bcg-1.JPG) center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)), url(../assets/images/bcg-1.JPG) center/cover no-repeat fixed;
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: center;
@@ -339,8 +339,8 @@ Banner
 }
 @media screen and (min-width: 768px){
     .banner {
-        background: -webkit-gradient(linear,left top, left bottom,from(rgba(7, 7, 7, 0.2)),to(rgba(0,0,0,0.6))), url("./images/bcg-4.jpg") center/cover no-repeat fixed;
-        background: linear-gradient(rgba(7, 7, 7, 0.2),rgba(0,0,0,0.6)), url("./images/bcg-4.jpg") center/cover no-repeat fixed;
+        background: -webkit-gradient(linear,left top, left bottom,from(rgba(7, 7, 7, 0.2)),to(rgba(0,0,0,0.6))), url("../assets/images/bcg-4.JPG") center/cover no-repeat fixed;
+        background: linear-gradient(rgba(7, 7, 7, 0.2),rgba(0,0,0,0.6)), url("../assets/images/bcg-4.JPG") center/cover no-repeat fixed;
     }
     .banner-container {
         padding: 0;
